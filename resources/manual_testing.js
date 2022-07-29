@@ -14,8 +14,10 @@ const addTwo = (num) => {
   return num + 2;
 };
 
-module.exports = {
-  sayHello: sayHello,
-  addTwo: addTwo,
-  MEANING_OF_LIFE: MEANING_OF_LIFE
-}
+// module.exports = {
+//   sayHello: sayHello,
+//   addTwo: addTwo,
+//   MEANING_OF_LIFE: MEANING_OF_LIFE
+// }
+
+module.exports = sayHello;
