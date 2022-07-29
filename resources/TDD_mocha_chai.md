@@ -24,3 +24,6 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
 - See the function convert it into string and log it. 
 
   console.log(sayHello.toString());
+
+- To see the node wrapper functions arguments: exports, require, module, __filename, __dirname. When cloning project use  __dirname.
+  console.log(arguments)
