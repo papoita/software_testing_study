@@ -17,6 +17,71 @@ A great deal of science and engineering is behind it, lots of discipline and pla
 4. 
 
 
+## More Agile Testing: Learning Journeys for the Whole Team. Janet Gregory
+https://learning.oreilly.com/library/view/more-agile-testing/9780133749571/ch03.html#:-:text=The%20more%20effort%20I,product%20at%20the%20end.
+
+* The more effort I put into testing the product conceptually at the start of the process, the less effort I had to put into manually testing the product at the end.
+
+unit tests vs browser level tests
+
+### T-Shaped Skill Set
+In Agile Testing, we described ten principles for agile testers, which emphasized attitude and mindset over specific technical skills. As a quick review, they are:
+
+- Provide continuous feedback.
+
+- Deliver value to the customer.
+
+- Enable face-to-face communication.
+
+- Have courage.
+
+- Keep it simple.
+
+- Practice continuous improvement.
+
+- Respond to change.
+
+- Self-organize.
+
+- Focus on people.
+
+- Enjoy.
+
+Our answer is that testers need T-shaped skills a term first defined by David Guest (Guest, 1991). To work effectively on any given team, we need both broad and deep skill sets. Broad knowledge in areas other than our own specialty enables us to collaborate across disciplines with experts in other roles. Deep knowledge and extensive practice in a single field ensure that we bring something essential to the team
+
+basic understanding of:
+- their system’s architecture, 
+- knowledge of general programming concepts and 
+- design principles, 
+- ability to do basic database queries, and 
+- competence with such tools as integrated development environments (IDEs) and 
+- continuous integration (CI) dashboards.
+
+* How to Become a Generalizing Specialist *
+
+Meta knowledge or looking for heuristics
+examples for a tester generalizing toward programming => rules of clean code (Martin, 2009), 
+- the principle of DRY (don’t repeat yourself), 
+- length or counts of classes, variables, function arguments, or too many if-statements in a method. 
+ The value-add is helping the specialist with signal detection, not problem correction.
+
+## Clean Code. Robert Martin (favorite so far)
+https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf
+
+code represents the details of requirements
+
+messy code, fast code will not be fixed later...
+Le Blanc's law: later equals never
+productivity decreases, redesign necessary therefore clean code is not only cost effective but a matter of professional survival.
+
+clean code should read like well written prose
+
+written by someone who cares deeply about the craft
+
+keeping it clean OVER TIME, continuos improvement
+
+Use meaningful names, in variables, funcctions, classes: it should answer all the big questions.Why it exists, what it does, how it is used.
+
 ## Practical TDD linkedin course
 
 https://www.linkedin.com/learning/practical-test-driven-development-for-java-programmers/what-is-test-driven-development?autoSkip=true&autoplay=true&resume=false
