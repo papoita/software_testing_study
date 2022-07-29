@@ -1,13 +1,10 @@
-const assert = require("assert").strict;
-//console.log(assert);
-
 const sayHello = (naming) => {
   //console.log(`hello there ${naming}`)
   return `hello there ${naming}`;
 };
 
-//sayHello("Alice");
+// This will export an object with a function sayHello with a new key value pair { sayHello: [Function: sayHello] }
+//module.exports.sayHello = sayHello;
 
-const actual = sayHello("Alice");
-
-assert.strictEqual(actual, "hello there Bob")
+//this will rewrite module.export to the function [Function: sayHello]
+module.exports = sayHello;

@@ -18,3 +18,5 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
   - strict refers to the  === which evaluates both type and value
 
 - Have different files for production code vs testing code.
+
+- module.exports, object that allows to export anything from a file. Function, objects, primitives, arrays. Always starts as an empty {}.
