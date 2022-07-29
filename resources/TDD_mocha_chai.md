@@ -20,3 +20,7 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
 - Have different files for production code vs testing code.
 
 - module.exports, object that allows to export anything from a file. Function, objects, primitives, arrays. Always starts as an empty {}.
+
+- See the function convert it into string and log it. 
+
+  console.log(sayHello.toString());

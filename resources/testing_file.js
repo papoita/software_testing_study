@@ -1,9 +1,9 @@
-const manualTesting = require("./manual_testing");
+const sayHello = require("./manual_testing");
 
-console.log(manualTesting);
+//console.log(sayHello.toString());
 
 const assert = require("assert").strict;
 
-// const actual = sayHello("Alice");
+ const actual = sayHello("Alice");
 
-// assert.strictEqual(actual, "hello there Bob")
+ assert.strictEqual(actual, "hello there Bob")
