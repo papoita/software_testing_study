@@ -72,4 +72,10 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
 
   `npx mocha`
 
+  ## Chai
+  Chai is a BDD/TDD assertion library for node can be used with or without mocha
+  chaijs.com
   
+  - can be written with either should,expect assert. Dependent on team
+
+ Assert in Chai is much more diverse than node assertions
