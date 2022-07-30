@@ -58,4 +58,18 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
 
   5. `mkdir test`
 
-  6
+  6. create file for testing samename as file <filename.test.js>
+
+  7. write it() that has a string a cb function
+  ```js
+   it("", () => {});
+   ```
+
+  8. execute the file (mocha binary)
+  `./node_modules/mocha/bin/mocha`
+
+  in case it doesn't work type this BUT if mocha not install it will automaticall fetch new vrsion if mocha is not installed.
+
+  `npx mocha`
+
+  
