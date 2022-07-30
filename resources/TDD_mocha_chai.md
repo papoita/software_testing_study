@@ -79,3 +79,11 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
   - can be written with either should,expect assert. Dependent on team
 
  Assert in Chai is much more diverse than node assertions
+
+ # Fearless refactor
+
+ Thanks to the test suite you can refactor, modify, optimize and alwasy make sure that code is working the way it should.
+
+ make sure that you have several it's for redundancy and attack edge cases
+
+ you can run mocha and see the console.log there
