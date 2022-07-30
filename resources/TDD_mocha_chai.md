@@ -27,3 +27,35 @@ V8 engine (js interpreter) wrap it in C++ and call it node. Interact with the fi
 
 - To see the node wrapper functions arguments: exports, require, module, __filename, __dirname. When cloning project use  __dirname.
   console.log(arguments)
+
+  # Test runner
+
+  npmjs.com 
+  npm means nothing
+
+  ## mocha
+
+  simple flexible fun JS framework for node.js
+
+  mochajs/mocha in GitHub
+  
+### setup mocha
+  1. to use download to root package.json.
+    npm init -y
+    
+  2. Or populate manually 
+    npm init 
+  server.js (would be the entry point
+  licence ISIC
+
+  3. go to the docs in npm
+
+  4. install either globally or as a dependency
+
+    - `npm install <package> `
+    -  `npm install --global <package>`
+    - `npm install --save-dev <package>`
+
+  5. `mkdir test`
+
+  6
