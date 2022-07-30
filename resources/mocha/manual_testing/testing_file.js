@@ -1,10 +1,10 @@
 // console.log(arguments);
 
-const sayHello = require("./manual_testing");
+const sayHello = require('./manual_testing');
 
 //console.log(sayHello);
 
-const assert = require("assert").strict;
+const assert = require('assert').strict;
 
  const actual = sayHello("Alice");
 
