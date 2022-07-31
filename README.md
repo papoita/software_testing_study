@@ -1,19 +1,21 @@
 # About
 
-This repo works as a compilation of resources used to prepare for a technical interview related specifically to code testing, quality assurance and design principles.
+This repo works as a compilation of resources, notes and technical information useful to prepare for a technical interview related specifically to code testing, quality assurance and design principles.
 
 ## Types of Testing
 
-* unit Testing: smallest pieces of code (known arguments and get known results). Write assertions about it
+**Unit Testing**: smallest pieces of code (known arguments and get known results). Write assertions about it
 
-* integration: test bigger pieces of code when they have to work together. (meme of kitchen drawers)
+**Integration**:
+test bigger pieces of code when they have to work together. (meme of kitchen drawers)
 
-* end-to-end: testing the app like the user using the browser by doing it programatically
+**end-to-end**: testing the app like the user using the browser by doing it programatically
 
-* storybook: visual testing, showing component rendering
+**storybook**: visual testing, showing component rendering
 
-* static testing: VScode linter, underline as typing
+**static testing**: VScode linter, underline as typing
 
+### Other types of testing
 * User acceptance testing
 
 * a/b testing
@@ -37,23 +39,30 @@ testing gives the developer a Lot of power: when creating the test before the fu
 ## Tools for testing
 
 ### Unit Testing
-* Mocha
-* Chai
-* Jest - test runner. When creating an app with REACT it comes with Jest
+* [Mocha](resources/mocha_info.md) 
+  * [Mocha_Demo](resources/mocha_demo/)
+* [Chai](resources/chai_info.md)
+* [Jest](resources/jest_info.md) - test runner. When creating an app with REACT it comes with Jest
 
 ### Integration Testing
 
-Testing Library
-Kent C. Dodds
+* [Testing Library](resources/testing_library.md)
+* Kent C. Dodds
 https://testing-library.com/blog
 
 
 # Resources folder 
-Has a summary.md file with the links to books, lectures and repo's from a variety of recognized sources of the general subject. 
+Has a [summary file](resources/summary.md) from a variety of recognized sources of the general subject. 
+
+* links to books,
+* lectures and 
+* repo's 
+
+
 
 # Objective
 
-- Preparation for TDD testing with Mocha, Chai, Jest and end to end testing with Cypress. Tech stack: JavaScript and Node.js.
+- Preparation for TDD testing with Mocha, Chai, Jest, integration tests and end to end testing with Cypress. Tech stack: JavaScript and Node.js.
 
 ### Good to have
 

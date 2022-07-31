@@ -8,7 +8,7 @@ simulate firing events
 Supports REACT framework alreayd in installation
 https://testing-library.com/docs/react-testing-library/intro
 
-@testing-library-react in packaje.json
+@testing-library-react in package.json
 
 ## in the fileName.test.js
 ```js
@@ -31,18 +31,21 @@ test('', () => {
 
 ## Methods
 
-queryAllByLabelText: gives back collection of elements
-queryByLabelText: gives back one the first singular item
+### Examples
+1. queryAllByLabelText: gives back collection of elements
+2. queryByLabelText: gives back one the first singular item
 
-getAllByLabelText
-getByLabelText
+3. getAllByLabelText
+4. getByLabelText
 
-findAllByLabelText
-findByLabelText
+5. findAllByLabelText
+6. findByLabelText
 
-query and get operate synchronously- immediately look at DOM
+### query and get
+ operate synchronously- immediately look at DOM
 
-query: if it doesn't find it returns Null (programatically check)
-get: if it doesn't find it returns error
+**query** 
+: if it doesn't find it returns Null (programatically check)
+**get**: if it doesn't find it returns error
 
-find is asynchrous: 4000 ms to wait and continuosly check (usefull in data fetching)
+**find**: is asynchrous. 4000 ms to wait and continuosly check (useful in data fetching)
