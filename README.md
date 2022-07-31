@@ -20,16 +20,32 @@ This repo works as a compilation of resources used to prepare for a technical in
 
 * Regression testing: testing bugs by causing it (the bug) to occur
 
+
+ ## Fearless refactor
+
+ Thanks to the test suite: you can refactor, modify, optimize and always make sure that code is working the way it should.
+
+ make sure that you have several it's for redundancy and attack edge cases.
+ What if we pass in an array of objects, too many things, too few things
+
+testing gives the developer a Lot of power: when creating the test before the function exists:
+- define name of function, 
+- what arguments and type of it takes
+- what files it lives in
+- what and types of return values
+
 ## Tools for testing
- ### Fearless refactor
 
- Thanks to the test suite: you can refactor, modify, optimize and alwasy make sure that code is working the way it should.
-
- make sure that you have several it's for redundancy and attack edge cases
-
+### Unit Testing
 * Mocha
 * Chai
 * Jest - test runner. When creating an app with REACT it comes with Jest
+
+### Integration Testing
+
+Testing Library
+Kent C. Dodds
+https://testing-library.com/blog
 
 
 # Resources folder 
