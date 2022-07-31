@@ -1,8 +1,16 @@
 # Jest
 Unit testing framework
-Ships with expectations from setup such as toBe, toMatch. Creators are the same: fb
+
+dependency of react scripts in package.json 
+Ships when `npx-create-react-app` with expectations from setup such as toBe, toMatch. Creators are the same: fb
 
 https://jestjs.io/docs/expect
+
+Useful for testing REACT
+
+- test() is replaceable with it()
+- expect
+
 
 ## Setup
 * CLI
