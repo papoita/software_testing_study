@@ -102,7 +102,8 @@ Refactor: optimise test and code
 
 check single identifiable piece of logic/beahviour in a single scenario= unit of functionality in isolation
 
-vs integration test : end to end
+vs integration test 
+vs end to end
 
 ## Node.js testing and code quality
 
