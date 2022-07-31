@@ -1,12 +1,14 @@
   # Test runner mocha
+Mocha JS test framework running on Node.js and in the browser
+  
+ https://mochajs.org/
+  mochajs/mocha in GitHub
+
 
   npmjs.com 
   npm stands for nothing
 
-  simple flexible fun JS framework for node.js
 
-  mochajs/mocha in GitHub
-  
 ## setup mocha
   1. to use download to root package.json.
     npm init -y
@@ -39,6 +41,6 @@
   in case it doesn't work type this BUT if mocha not install it will automaticall fetch new vrsion if mocha is not installed.
 
   `npx mocha`
-  
+
   9. 
  you can run mocha and see the console.log there
