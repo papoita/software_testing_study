@@ -4,6 +4,11 @@ Research done on the subject that is the focus of the possition.
 
 Quality code, testing, design principles.
 
+## Javascript testing practices and principles. Kent C. Dodds
+https://frontendmasters.com/courses/testing-practices-principles/
+
+
+
 ## Software Testing, Second Edition. Ron Patton
 
 https://learning.oreilly.com/library/view/software-testing-second/0672327988/pr05.html#fm01lev2sec1
