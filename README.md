@@ -19,8 +19,15 @@ This repo works as a compilation of resources used to prepare for a technical in
 * Regression testing: testing bugs by causing it the bug to occur
 
 ## Tools for testing
+ ### Fearless refactor
 
-Jest - test runner. When creating an app with REACT it comes with Jest
+ Thanks to the test suite: you can refactor, modify, optimize and alwasy make sure that code is working the way it should.
+
+ make sure that you have several it's for redundancy and attack edge cases
+
+* Mocha
+* Chai
+* Jest - test runner. When creating an app with REACT it comes with Jest
 
 
 # Resources folder 
