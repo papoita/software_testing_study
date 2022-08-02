@@ -1,5 +1,8 @@
 # Testing Library
 
+  *  Kent C. Dodds
+https://testing-library.com/blog
+
 Is based in searching for things in the DOM
 ie. ByTestId
 
@@ -129,7 +132,8 @@ test('it can display the result of an api call', () => {
 
   //find Alice in the DOM
   //adding the return allows the find to wait until the promise has resolved and not take a previous answer for the test avoiding a false positive
-  return findByTest('Alice');
+  //{exact:false} allows for a fuzzy search
+  return findByTest('Alice', {exact:false});
 
 })
 
@@ -159,6 +163,13 @@ const axios = {
       })
     }
 
-  })
+  }),
+
+  post: jest.fn(() => {})
 };
+
+export default axios;
 ```
+
+# prettyDOM
+
